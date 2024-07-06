@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags essenciais -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Meta tags para SEO -->
+    <meta
+      name="description"
+      content="Plataforma segura para criptografia e descriptografia de mensagens. Proteja sua comunicação com nossa ferramenta de criptografia avançada."
+    />
+    <meta
+      name="keywords"
+      content="criptografia, descriptografia, mensagens seguras, segurança de dados, proteção de comunicação, ferramenta de criptografia, segurança online"
+    />
+
+    <!-- Título da página -->
+    <title>CHALLENGE - Decodificador de texto</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Fontes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <body>
+      <nav>
+        <h1>CHALLENGE - Decodificador de texto</h1>
+      </nav>
+      <main>
+        <div class="container">
+
+          <!-- Seção de entrada de dados -->
+          <div class="input-section">
+              <label for="text-input">Digite o texto que deseja criptografar ou descriptografar:</label>
+              <textarea id="text-input" rows="10" placeholder="Digite seu texto aqui..." oninput="validarEntrada()"></textarea>
+              <img src="/assets/!.png" class="img-alerta">
+              <span  id="validation-message" class="validation-message"></span>
+              <button id="criptografar-btn" onclick="criptografar()" disabled>Criptografar</button>
+              <button onclick="descriptografar()">Descriptografar</button>
+          </div>
+          
+          <!-- Seção de saída de dados -->
+          <div class="output-section">
+              <h2>Resultado:</h2>
+              <textarea id="text-output" rows="10" readonly></textarea>
+              <button onclick="copiar()">Copiar</button>
+              <button onclick="limpar()">Limpar</button>
+          </div>
+      </div>
+      </main>
+      
+    <footer class="footer">
+      Desenvolvido por Ciro Batista da Silva - 2024
+    </footer> 
+  
+      <script src="script.js"></script>
+  </body>
+  </html>
