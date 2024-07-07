@@ -28,6 +28,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🎲 DEMO
 
+https://github.com/Ciro-TI-System/decodificador-de-texto-Oracle-Next-Education-Alura/assets/78507494/0aedf1b1-6f5e-4910-a606-7c9e6fc33eee
+
 <br>
 
 ## 🔖 Layout
