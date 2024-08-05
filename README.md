@@ -10,7 +10,7 @@
 <br>
 
   <p align="center">
-  <img src=".github/Challenge-Decodificador de texto.jpeg" width="70%">
+  <img src=".github/CHALLENGE - Decodificador de texto.png" width="70%">
   </p>
 
 <br>
