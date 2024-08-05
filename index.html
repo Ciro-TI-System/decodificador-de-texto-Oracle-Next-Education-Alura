@@ -43,8 +43,11 @@
 
           <!-- Seção de entrada de dados -->
           <div class="input-section">
+            <div class="fieldset">
               <label for="text-input">Digite o texto que deseja criptografar ou descriptografar:</label>
-              <textarea id="text-input" rows="10" placeholder="Digite seu texto aqui..." oninput="validarEntrada()"></textarea>
+              <textarea id="text-input" rows="10" cols="50" placeholder="Digite seu texto aqui..." oninput="validarEntrada()"></textarea>
+            </div>
+              
               <img src="/assets/!.png" class="img-alerta">
               <span  id="validation-message" class="validation-message"></span>
               <button id="criptografar-btn" onclick="criptografar()" disabled>Criptografar</button>
@@ -54,7 +57,7 @@
           <!-- Seção de saída de dados -->
           <div class="output-section">
               <h2>Resultado:</h2>
-              <textarea id="text-output" rows="10" readonly></textarea>
+              <textarea id="text-output" rows="10" cols="50"></textarea>
               <button onclick="copiar()">Copiar</button>
               <button onclick="limpar()">Limpar</button>
           </div>
