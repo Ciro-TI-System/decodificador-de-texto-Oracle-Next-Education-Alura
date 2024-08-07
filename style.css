@@ -12,13 +12,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url("/assets/Star-Wars-LEGO-R2-D2-technology-Toy-machine-784330-wallhere.com.jpg");
+  background-image: url("/assets/Background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   margin: 0;
-  color: #fff;
+  color: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,24 +28,29 @@ body {
 nav {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-nav h1 {
+nav h1,
+h2 {
   font-size: 4rem;
   font-weight: 800;
   line-height: 4.8rem;
-  color: #090039;
+  color: blue;
   margin-bottom: 1.5rem;
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  gap: 10rem;
+  flex-direction: row;
 }
 
-.container {
-  margin-left: 50rem;
+img {
+  max-width: 60rem;
+  margin-right: 10rem;
+  padding-left: 0;
 }
 
 .input-section,
@@ -96,7 +101,7 @@ button:hover {
   margin-top: 2rem;
   padding: 1rem 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: blue;
   color: white;
   text-align: center;
   font-size: 2rem;
@@ -109,8 +114,8 @@ button:hover {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  width: auto; 
-  height: 1.5rem; 
+  width: auto;
+  height: 1.5rem;
   background-size: cover;
 }
 
@@ -118,4 +123,38 @@ button:hover {
   color: red;
   font-size: 1.4rem;
   margin-top: 0.5rem;
+}
+
+@media (max-width: 70rem) {
+  nav h1,
+  h2 {
+    font-size: 2.9rem;
+  }
+
+  .image {
+    display: none;
+  }
+
+  footer {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 39rem) {
+  nav h1,
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .container {
+    max-width: 300px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  footer {
+    bottom: 0;
+  }
 }
