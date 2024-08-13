@@ -60,7 +60,8 @@ img {
 
 .input-section label {
   /* font-size: 2rem; */
-  font-size: clamp(1.4rem, 1vw + 0.4rem, 3rem);
+  font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem);
+  line-height: clamp(1.8rem, 1vw + 0.4rem, 2.5rem);
 }
 
 .fieldset {
@@ -80,7 +81,8 @@ input {
   border-radius: 0.5rem;
   border: 1px solid #ccc;
   /* font-size: 2rem; */
-  font-size: clamp(1.4rem, 1vw + 0.4rem, 3rem);
+  font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem);
+  line-height: clamp(1.8rem, 1vw + 0.4rem, 2.5rem);
   display: flex;
   align-items: center;
   overflow-y: scroll;
@@ -107,7 +109,8 @@ button:hover {
   color: white;
   text-align: center;
   /* font-size: 2rem; */
-  font-size: clamp(1.4rem, 1vw + 0.4rem, 3rem);
+  font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem);
+  line-height: clamp(1.8rem, 1vw + 0.4rem, 2.5rem);
   justify-content: space-around;
   display: flex;
   flex-direction: row;
@@ -135,7 +138,7 @@ div .info {
   margin-top: 0.5rem;
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 77rem) {
   /* nav h1,
   h2 {
     font-size: 2.9rem;
